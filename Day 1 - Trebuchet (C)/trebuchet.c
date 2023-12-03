@@ -25,13 +25,10 @@ StringParse parsers[] ={
 
 
 int main(){
-
     FILE* fp;
     char slice[5];
     char curr_chars[3] = {0, 0, '\0'};
-
     char curr_line[100];
-
     long int total = 0;
     int flag = 0;
 
