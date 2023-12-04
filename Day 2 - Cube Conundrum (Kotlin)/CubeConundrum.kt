@@ -7,8 +7,6 @@ val greenPattern = Regex("(\\d+) (green)")
 val bluePattern = Regex("(\\d+) (blue)")
 val gameIdPattern = Regex("(Game) (\\d+)(:)")
 
-
-
 val lines = Path.of("./input.txt").readLines()
 fun main (){
     println(part1())
