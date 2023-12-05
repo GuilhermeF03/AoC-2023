@@ -27,15 +27,18 @@ namespace Scratchcards
         // Regex patterns
         [GeneratedRegex("\\d+")]
         private static partial Regex NumberRegex();
-        private const string WinningNumberRegex = @"(\d+\s+)+\|";
-        private const string MyNumbersRegex = @"\|(\s+\d+)+";
-        private const string CardHeaderRegex = @"(Card)(\s+\d+):";
+        [GeneratedRegex( @"(Card)(\s+\d+):")]
+        private static partial Regex CardHeaderRegex();
+        
+        private const string CardHeaderPatternRegex = @"(Card)(\s+\d+):";
+        private const string WinningNumberPatternRegex = @"(\d+\s+)+\|";
+        private const string MyNumbersPatternRegex = @"\|(\s+\d+)+";
         
         private static readonly LinkedList<CardPointer> CardPointers = new();
         private static readonly List<Card> Cards = new();
         private const string FilePath = "../../../input.txt";
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             var lines = File.ReadLines(FilePath).ToList();
             Console.WriteLine("Part1: {0}", Part1(lines));
@@ -53,8 +56,8 @@ namespace Scratchcards
             return (
                 from line in lines
                     let header = CardHeaderRegex().Match(line).Value
-                    let winningNumbers = GetParsedNumbers(line, WinningNumberRegex)
-                    let myNumbers = GetParsedNumbers(line, MyNumbersRegex)
+                    let winningNumbers = GetParsedNumbers(line, WinningNumberPatternRegex)
+                    let myNumbers = GetParsedNumbers(line, MyNumbersPatternRegex)
                 select winningNumbers.Intersect(myNumbers).ToList() into matchedNumbers 
                 select (int)Math.Pow(2, matchedNumbers.Count - 1)
                 ).Sum();
@@ -66,9 +69,9 @@ namespace Scratchcards
             foreach (var line in lines)
             {
                 var card = new Card(
-                    idx: GetParsedNumbers(line, CardHeaderRegex).First(),
-                    winningNumbers: GetParsedNumbers(line, WinningNumberRegex).ToList(),
-                    myNumbers: GetParsedNumbers(line, MyNumbersRegex).ToList()
+                    idx: GetParsedNumbers(line, CardHeaderPatternRegex).First(),
+                    winningNumbers: GetParsedNumbers(line, WinningNumberPatternRegex).ToList(),
+                    myNumbers: GetParsedNumbers(line, MyNumbersPatternRegex).ToList()
                 );
                 CardPointers?.AddLast(new CardPointer(card.Idx - 1));
                 Cards.Add(card);
@@ -94,7 +97,5 @@ namespace Scratchcards
             return CardPointers.Count;
         }
 
-        [GeneratedRegex("(Card)(\\s+\\d+):")]
-        private static partial Regex CardHeaderRegex();
     }
 }

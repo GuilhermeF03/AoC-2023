@@ -1,0 +1,15 @@
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\bin\Debug\net7.0\Scratchcards.exe
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\bin\Debug\net7.0\Scratchcards.deps.json
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\bin\Debug\net7.0\Scratchcards.runtimeconfig.json
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\bin\Debug\net7.0\Scratchcards.dll
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\bin\Debug\net7.0\Scratchcards.pdb
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.csproj.AssemblyReference.cache
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.AssemblyInfoInputs.cache
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.AssemblyInfo.cs
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.csproj.CoreCompileInputs.cache
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.dll
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\refint\Scratchcards.dll
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.pdb
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\Scratchcards.genruntimeconfig.cache
+C:\Users\primu\OneDrive\Documents\Projects\AoC\AoC-2023\Day 4 - Scratchcards (C#)\Scratchcards\Scratchcards\obj\Debug\net7.0\ref\Scratchcards.dll
